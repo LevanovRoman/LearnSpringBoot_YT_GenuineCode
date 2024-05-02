@@ -1,0 +1,1 @@
+Master the Spring Boot framework with this comprehensive tutorial. This tutorial is based on the latest version of Spring Boot, the 2024 Spring Boot version 3.x series. It covers everything from the basic concepts of Spring Boot to Spring JPA, RESTful API, Profiles, and even health tracking.
