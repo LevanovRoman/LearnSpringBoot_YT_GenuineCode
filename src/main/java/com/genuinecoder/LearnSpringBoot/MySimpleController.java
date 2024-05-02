@@ -1,9 +1,11 @@
 package com.genuinecoder.LearnSpringBoot;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Profile;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
+@Profile("prod")
 public class MySimpleController {
 
     private final Calculator calculator;

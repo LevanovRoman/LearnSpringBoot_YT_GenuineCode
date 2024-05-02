@@ -1,0 +1,24 @@
+2024-05-02T10:23:06.660+03:00  INFO 7988 --- [LearnSpringBoot] [main] c.g.L.LearnSpringBootApplication         : Starting LearnSpringBootApplication v0.0.1-SNAPSHOT using Java 21.0.1 with PID 7988 (C:\Users\10390\Desktop\TRY\Spring_2\LearnSpringBootYT_GenuineCoder\build\libs\LearnSpringBoot-0.0.1-SNAPSHOT.jar started by 10390 in C:\Users\10390\Desktop\TRY\Spring_2\LearnSpringBootYT_GenuineCoder\build\libs)
+2024-05-02T10:23:06.663+03:00  INFO 7988 --- [LearnSpringBoot] [main] c.g.L.LearnSpringBootApplication         : The following 1 profile is active: "dev"
+2024-05-02T10:23:08.106+03:00  INFO 7988 --- [LearnSpringBoot] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-02T10:23:08.208+03:00  INFO 7988 --- [LearnSpringBoot] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 87 ms. Found 1 JPA repository interface.
+2024-05-02T10:23:09.486+03:00  INFO 7988 --- [LearnSpringBoot] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8500 (http)
+2024-05-02T10:23:09.507+03:00  INFO 7988 --- [LearnSpringBoot] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-02T10:23:09.507+03:00  INFO 7988 --- [LearnSpringBoot] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-05-02T10:23:09.561+03:00  INFO 7988 --- [LearnSpringBoot] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-05-02T10:23:09.562+03:00  INFO 7988 --- [LearnSpringBoot] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2809 ms
+2024-05-02T10:23:10.112+03:00  INFO 7988 --- [LearnSpringBoot] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-05-02T10:23:10.208+03:00  INFO 7988 --- [LearnSpringBoot] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-05-02T10:23:10.320+03:00  INFO 7988 --- [LearnSpringBoot] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-05-02T10:23:10.814+03:00  INFO 7988 --- [LearnSpringBoot] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-02T10:23:10.990+03:00  INFO 7988 --- [LearnSpringBoot] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-05-02T10:23:11.911+03:00  INFO 7988 --- [LearnSpringBoot] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4a105556
+2024-05-02T10:23:11.914+03:00  INFO 7988 --- [LearnSpringBoot] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-05-02T10:23:13.356+03:00  INFO 7988 --- [LearnSpringBoot] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-05-02T10:23:13.421+03:00  INFO 7988 --- [LearnSpringBoot] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-02T10:23:13.962+03:00  INFO 7988 --- [LearnSpringBoot] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-05-02T10:23:14.782+03:00  WARN 7988 --- [LearnSpringBoot] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-05-02T10:23:14.853+03:00  INFO 7988 --- [LearnSpringBoot] [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2024-05-02T10:23:15.711+03:00  INFO 7988 --- [LearnSpringBoot] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 3 endpoint(s) beneath base path '/actuator'
+2024-05-02T10:23:15.838+03:00  INFO 7988 --- [LearnSpringBoot] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8500 (http) with context path ''
+2024-05-02T10:23:15.857+03:00  INFO 7988 --- [LearnSpringBoot] [main] c.g.L.LearnSpringBootApplication         : Started LearnSpringBootApplication in 9.955 seconds (process running for 11.143)

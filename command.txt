@@ -41,7 +41,11 @@ we can use MappingJacksonValue and SimpleBeanPropertyFilter for dynamic filter
 to Question class for specific api rather than creating new QuizWrapper class
 
 {
-        "username": "gc",
-        "password": "1234",
-        "role": "USER"
+        "name": "gc1",
+        "email": "gs32@mail.com"
     }
+
+java -jar LearnSpringBoot-0.0.1-SNAPSHOT.jar
+
+java -Dspring.profiles.active=dev -jar LearnSpringBoot-0.0.1-SNAPSHOT.jar
+
